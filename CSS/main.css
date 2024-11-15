@@ -33,3 +33,6 @@
 .header__info-links-list-link{
     color: #fff;
 }
+strong {
+    font-weight: bold;
+}
