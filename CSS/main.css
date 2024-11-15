@@ -1,0 +1,35 @@
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+.header__background {
+    background: #1E212C;
+
+}
+.d_flex{
+    display: flex;
+
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.header__info-phone{
+    color: white;
+}
+
+.header__info-links-list-link{
+    color: #fff;
+}
