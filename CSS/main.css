@@ -47,3 +47,60 @@ strong {
     text-decoration: none;
     color:white;
 }
+.b__top-logo{
+    display: flex;
+    margin-left: 140px;
+
+
+}.b__top-background-logo{
+    display: flex;
+    flex-direction: row;
+ }
+
+.info__top-links-list{
+display: flex;
+    gap: 32px;
+    margin-left: 60px;
+    margin-right: 420px;
+}
+
+.info__top-links-list-btn{
+    text-decoration: none;
+    color: black;
+}
+.info__top-links-list-btn-S{
+    color: red;
+    text-decoration: none;
+}
+.header__wrapper{
+    background:  #17696A;
+    width: 100%;
+    padding-top: 10px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+span{
+    color: white;
+}
+.header__wrapper-btn{
+    color: #ffffff;
+}
+.main{
+    flex: 1 1 auto;
+}
+.footer__container{
+    background: #1E212C;
+    width: 100%;
+    padding-top: 100px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.footer{
+    background: #1E212C;
+    border: 1px solid;
+}
+.footer__item{
+    display: flex;
+    justify-content: space-between;
+}
