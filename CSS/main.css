@@ -31,13 +31,14 @@
 
 .header__info-phone{
     color: white;
-    margin-right: 345px;
     text-decoration: none;
+    opacity: .6;
 }
 
 .header__info-links-list-link{
     color: #fff;
     text-decoration: none;
+    opacity: .6;
 }
 strong {
     font-weight: bold;
@@ -46,6 +47,7 @@ strong {
 .header__info-login-btn{
     text-decoration: none;
     color:white;
+    opacity: .6;
 }
 .b__top-logo{
     display: flex;
@@ -68,9 +70,12 @@ display: flex;
     text-decoration: none;
     color: black;
 }
-.info__top-links-list-btn-S{
+/*.info__top-links-list-btn-S{
     color: red;
     text-decoration: none;
+} */
+.info__top-links-list-btn:hover {
+    color: #17696A;
 }
 .header__wrapper{
     background:  #17696A;
@@ -103,4 +108,22 @@ span{
 .footer__item{
     display: flex;
     justify-content: space-between;
+}
+
+.info__top-links-list-btn-red{
+    color: red;
+    text-decoration: none;
+}
+.link:link{
+    color: darkred;
+}
+.visited:visited{
+    color: #100909;
+}
+.hover:hover{
+    color: #3abc0d;
+}
+
+.active:active{
+    color: blue;
 }
