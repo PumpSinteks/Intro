@@ -1,0 +1,37 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-size: 200px;*/
+/*}*/
+/*.dviTest > p, section > p {*/
+/*    color: blue;*/
+/*    font-weight: bold;*/
+/*}*/
+/*ul > li {*/
+/*    list-style: square;*/
+/*}*/
+/*h1 + p {*/
+/*    font-size: 18px;*/
+/*    color: green;*/
+/*}*/
+/*h1 ~ p {*/
+/*    color: gray;*/
+/*    font-style: italic;*/
+/*}*/
+div > p {
+    color: blue;
+    font-weight: bold;
+}
+
+.train p {
+    color: red;
+}
+button, a {
+    padding: 10px;
+    color: yellow;
+}
+input[type="text"] {
+    border: 1px solid black;
+    padding: 5px;
+}
